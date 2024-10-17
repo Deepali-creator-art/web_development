@@ -1,0 +1,30 @@
+body{
+    margin:0;
+}
+ul{
+    
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:coral;
+    width:25%;
+    height:100%;
+    overflow:auto;
+    position:fixed;
+
+}
+ 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color: blue;
+}
+div{
+    margin-left:25%;
+    background-color: aqua;
+    height:100%;
+}

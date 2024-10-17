@@ -1,0 +1,20 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 15px;
+    border-style: dashed;
+  
+}
+th{
+    background-color: aquamarine;
+    /* width:400px; */
+    /* height:50px; */
+    padding:10px;
+    
+}
+td{
+    background-color:burlywood;
+    width:400px;
+    height:50px;
+    text-align: center;
+} 

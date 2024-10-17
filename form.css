@@ -1,0 +1,31 @@
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+fieldset {
+    border:2px solid rgb(26, 67, 232);
+}
+label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: size 14px;
+    font-weight:bolder;
+    display:block;
+    margin-bottom: 15px;
+    background-color: blanchedalmond;
+}
+input{
+    width:200px;
+    padding: 5px;
+}
+input[type="text"],[type="email"],[type="password"],[type="textarea"]{
+    border: 5px solid rgb(179, 14, 91);
+    background-color: #ffff;
+}
+input[type="submit"]:hover,button:hover{
+    background-color: rgb(4, 73, 73);
+    color:black;
+    padding:5px;
+    cursor: pointer;
+}
+
