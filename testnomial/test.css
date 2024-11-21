@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: coral;
+}
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    left:40%;
+    top:-20%
+}
+div {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(205, 126, 90);
+    border-radius: 10px;
+    /* 0 to 256 */
+    box-shadow: 0 4px 8px rgba(219, 146, 109); 
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+}
